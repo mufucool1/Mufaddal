@@ -1,15 +1,25 @@
+const name="ourschool";
+const str=name.slice(-4,-2);
+
+console.log(str);
+
+/*
 const name="Mufaddal"
 const age=36
 
 //console.log("My name is "+name+" and age is "+age);
 
-console.log(`My name is ${name} and age is ${age}`); // ` is called back tags
+//console.log(`My name is ${name} and age is ${age}`); // ` is called back tags
 
 //console.log(name.toUpperCase());
 
-const gameName = new String('hitesh-hc-com');
+const gameName = new String('hitesh-hc');
 
-const anotherString=gameName.slice(-8,4);
+//console.log(gameName.indexOf('t'));
+
+//const anotherString=gameName.slice(-6,-2); // - starts from end , the first argument includes character and second argument doesn't
+
+const anotherString=gameName.slice(1,5);
 
 console.log(anotherString);
 
