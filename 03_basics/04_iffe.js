@@ -8,3 +8,8 @@
 (()=>{
     console.log(`DB CONNECTED TWO`);
 })();
+
+((name)=>{
+    console.log(`Welcome ${name}`);
+    
+})('mufaddal');
