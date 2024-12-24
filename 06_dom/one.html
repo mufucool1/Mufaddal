@@ -29,3 +29,34 @@
     </div>
 </body>
 </html>
+
+<!--
+
+title.inn
+undefined
+title.innerHTML
+'DOM learning on Chai aur code <span style="display: none;">test text</span>'
+document.querySelector('ul')
+<ul>​…​</ul>​
+document.querySelectorAll('li')
+NodeList(4) [li.list-item, li.list-item, li.list-item, li.list-item]0: li.list-item1: li.list-item2: li.list-item3: li.list-itemlength: 4[[Prototype]]: NodeList
+document.querySelector('li').style('color:green')
+VM511:1 Uncaught TypeError: document.querySelector(...).style is not a function
+    at <anonymous>:1:30
+(anonymous) @ VM511:1Understand this errorAI
+document.querySelector('li').style.color=green;
+VM566:1 Uncaught ReferenceError: green is not defined
+    at <anonymous>:1:42
+(anonymous) @ VM566:1Understand this errorAI
+document.querySelector('li').style.color="green";
+'green'
+const abc=document.querySelectorAll('li')
+undefined
+const abc=document.querySelectorAll('li')
+undefined
+abc
+NodeList(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+abc.forEach( (a) => a.style.backgroundColor="green" )
+undefined
+
+-->
